@@ -8,16 +8,16 @@
     <fragment
         android:id="@+id/home"
         android:name="anlim.simplebottomnav.Home"
-        android:label="fragment_home"
+        android:label="@string/home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/search"
         android:name="anlim.simplebottomnav.Search"
-        android:label="fragment_search"
+        android:label="@string/search"
         tools:layout="@layout/fragment_search" />
     <fragment
         android:id="@+id/settings"
         android:name="anlim.simplebottomnav.Settings"
-        android:label="fragment_settings"
+        android:label="@string/settings"
         tools:layout="@layout/fragment_settings" />
 </navigation>
